@@ -1,0 +1,64 @@
+.contact {
+  background: linear-gradient(to top, #0f2027, #203a43);
+  color: #fff;
+  padding: 6rem 2rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  backdrop-filter: blur(4px);
+}
+
+.contact-form button {
+  background: #00bfff;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #1e90ff;
+}
+
+.contact-icons {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;     /* horizontal layout */
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* align items vertically */
+  gap: 2rem;               /* space between icons */
+  flex-wrap: wrap;         /* wrap on small screens if needed */
+}
+
+.contact-icons div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.contact-icons img {
+  width: 24px;
+  height: 24px;
+}
+
