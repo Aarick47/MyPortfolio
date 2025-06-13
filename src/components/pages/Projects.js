@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import project1 from '../../assets/nav2.avif';
+import project1 from '../../assets/pic8.png';
 import project2 from '../../assets/movei.png';
 import project3 from '../../assets/nav2.avif'; // Replace with your actual images
 import './Hero.css';
